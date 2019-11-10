@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!-- Page Header -->
+  <header class="masthead" style="background-image: url( {{ url_for( 'static', filename='img/home-bg.jpg') }} )">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Our Company</h1>
+            <span class="subheading">Here's everything you need to know.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <div class="jumbotron">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aliquid dolores natus perferendis soluta suscipit in, deserunt eum voluptate minus officiis quasi distinctio ratione labore earum magni. In, necessitatibus at!</p>
+    </div>
+{% endblock %}
